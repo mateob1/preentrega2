@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(217, 217, 217);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: rgb(217, 217, 217);
+    color: #fff;
+    text-shadow:1px 1px 5px rgb(0, 0, 0, 0.9);
+}
+
+.main{
+    background-image: url(/assets/img/vela\ imagen\ grande.jpg);
+    background-color: rgb(217, 217, 217);
+}
+
+
+.banner{
+    width: 100%;
+    height: 600px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgba(217, 217, 217);
+    border-radius: 0 0 15px 15px;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.45%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-brand img {
+    width: 250px;
+}
+
+.navbar-nav{
+    gap: 25px;
+}
+.nav-item:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+.nav-link{
+    padding-left: 10px;
+}
+
+}
+
+@media (max-width: 351px) {
+    .navbar-brand{
+    width: 200px;
+} 
+}
+
+.banner{
+width: 100%;
+height: auto;
+}
+
+.bannerIndex{
+    width: 100%;
+    height: 650px;
+    background-image: url(../assets/img/vela\ imagen\ grande.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.h1Tittle{
+    color: #fff;
+    text-shadow:1px 1px 5px rgb(0, 0, 0, 0.9);
+    font-size: 45px;
+}
+
+
+
+
+.footer{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+}
+
+.navBar{
+    text-align: center;
+}
+.navBar li{
+    list-style: none;
+}
+.navBar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container__contact{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    }
+
+
+.contact__list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.contact__link{
+    text-decoration:none;
+    text-shadow: none;
+    color:#444
+}
+
+.contact__h2{
+    color: var(--btn-bg-color);
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.contact__h3{
+    margin-top:15px;
+    }
+.contact__p{
+    color: #444;
+}
+.contact__link:hover{
+    background-color: var(--btn_hover_color);
+    border-radius: 25px;
+    
+}
+
+
+    
+
+.form__label{
+    width: 100%;
+}
+
+.form__input{
+    padding: 10px;
+    margin-bottom: 4px;
+    border-color: #fff;
+    border-radius: 15px;
+    font-family: inherit;
+    width: 100%;
+}
+
+.form__textarea{
+    padding: 10px;
+    margin-bottom: 8px;
+    border: inset;
+    border-radius: 15px;
+    font-family: inherit;
+    width: 100%;
+}
+
+
+@media (max-width: 576px) {
+    .bannerIndex{
+        background-image: url(../assets/img/vela\ imagen\ grande.jpg);
+        background-position: right;
+    
+    }
+    .h1Tittle{
+        font-size: 34px;
+    }
+
+    .btns__item{
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+}
