@@ -1,0 +1,31 @@
+main{
+    background-color: $colorheader;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.bannerIndex{
+    width: 100%;
+    height: 650px;
+    background-image: url("../assets/img/vela\ imagen\ grande.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+.h1Tittle{
+color: #fff;
+text-shadow:1px 1px 5px black;
+font-size: 45px;
+}

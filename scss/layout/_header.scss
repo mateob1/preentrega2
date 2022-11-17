@@ -1,0 +1,16 @@
+header{
+    background-color: $colorheader;
+    color: #fff;
+    text-shadow:1px 1px 5px black;
+}
+.navBar{
+        text-align: center;
+        li{
+        list-style: none;
+            a{
+            text-decoration: none;
+            color: black;
+            }
+        } 
+    }
+

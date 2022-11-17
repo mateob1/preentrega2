@@ -1,0 +1,75 @@
+@media (max-width: 576px) {
+    .nav-link{
+        padding-left: 10px;
+    }
+
+    .bannerIndex{
+        background-image: url("../assets/img/vela\ imagen\ grande.jpg");
+        background-position: right;
+    
+    }
+    .h1Tittle{
+        font-size: 34px;
+    }
+
+    .btns__item{
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+}
+    
+    @media (max-width: 351px) {
+        .navbar-brand{
+        width: 200px;
+    } 
+    }
+    
+
+
+    @media screen and (max-width: 991px) {
+        .wsk-cp-product{
+            margin:40px auto;
+        }
+        .wsk-cp-product .wsk-cp-img{
+        top:-40px;
+        }
+        .wsk-cp-product .wsk-cp-img img{
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        }
+        .wsk-cp-product .wsk-cp-text .category > span{
+        border-color: $colorheader;
+        box-shadow: none;
+        padding: 11px 28px;
+        }
+        .wsk-cp-product .wsk-cp-text .category{
+        margin-top: 0px;
+        }
+        a.buy-btn{
+        border-color: $colorheader;
+        background: $colorheader;
+        color: #fff;
+        }
+    }
+
+    @media only screen and (max-width: 749px) {
+        .main-footer {
+        padding:20px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        }
+        .info{
+            padding:20px 0;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .main-footer {
+        grid-template-columns: 1fr;
+        }
+        .sociallogos{
+        padding:20px 0;
+        }
+        .com{
+        padding:20px 0;
+        } 
+    }
